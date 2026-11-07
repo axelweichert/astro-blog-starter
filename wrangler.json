@@ -3,12 +3,9 @@
 	"workers_dev": false,
 	"preview_urls": false,
 	"compatibility_date": "2025-10-08",
-	"compatibility_flags": ["nodejs_compat"],
-	"main": "./dist/_worker.js/index.js",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
 	"observability": {
 		"enabled": true
 	},
